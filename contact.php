@@ -1,5 +1,5 @@
 <?php
-include("/assets/utilities/header.php");
+include("assets/utilities/header.php");
 ?>
 <section class="container position-absolute translate-middle mt-4 bg-op top-50 start-50 ">
 
@@ -12,7 +12,7 @@ include("/assets/utilities/header.php");
             <form name="contact-form" id="formulaire" class="text-center mt-5">
 
                 <!--Grid row-->
-                <?php include ('/assets/utilities/form.php') ?>
+                <?php include ('assets/utilities/form.php') ?>
 
                 <!--Grid row-->
                 <div class="row mt-4 mx-0">

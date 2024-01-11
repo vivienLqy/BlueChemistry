@@ -1,6 +1,6 @@
 
 <?php
-    include ("/assets/utilities/header.php");
+    include ("assets/utilities/header.php");
 ?>
     <div class="presentation position-absolute mt-5 top-25 bg-op text-white w-50 translate-middle start-50 p-3 d-flex flex-column align-items-center">
         <h2 class="text-center">Notre Site</h2>
