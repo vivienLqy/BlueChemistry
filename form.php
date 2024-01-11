@@ -1,8 +1,7 @@
 <?php
-include 'assets/data/form_data.php'; // Assurez-vous que le chemin vers votre fichier form_data.php est correct
+include 'assets/data/form_data.php';
 
-echo '<div class="row mt-4">';
-
+ echo '<div class="row m-5 d-flex justify-content-center">';
 foreach ($name as $value) {
     echo '<div class="col-md-6">
         <div class="md-form mb-0">
@@ -20,4 +19,5 @@ foreach ($coord as $value) {
         </div>
     </div>';
 }
+echo '</div>';
 ?>

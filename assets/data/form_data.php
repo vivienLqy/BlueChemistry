@@ -20,14 +20,14 @@ $coord = [
             [
                 "type" => "email",
                 "id" => "inpuEmail",
-                "class" => "form-control bg-body-secondary rounded-0 text-uppercase",
+                "class" => "form-control bg-body-secondary rounded-0  text-uppercase",
                 "placeholder" => "Votre Email",
                 "name" => "e-mail"
             ],
             [
                 "type" => "tel",
                 "id" => "Mobile_number",
-                "class" => "form-control bg-body-secondary rounded-0 text-uppercase",
+                "class" => "form-control bg-body-secondary rounded-0  text-uppercase",
                 "placeholder" => "Votre telephone",
                 "name" => "number"
             ],

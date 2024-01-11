@@ -1,25 +1,3 @@
-<?php
-//ici je stock le domaine de mon site :
-$domaine = 'localhost:8000/';
-//ici je stock mes url :
-$index_page = $domaine;
-$produits_page = $domaine . 'produits.php';
-$contact_page = $domaine . 'contact.php';
-$contable_page = $domaine . 'contable.php';
-//ici je stock url courante
-$current_url = $_SERVER['SCRIPT_NAME'];
-
-if (strpos($index_page, $current_url) !== false || strpos($index_page . 'index.php', $current_url) !== false) {
-  $title = 'Bievenue sur la boutique santée de Wonka';
-}
-elseif (strpos($produits_page, $current_url)) {
-  $title = 'Nos Produits';
-}
-elseif (strpos($contact_page, $current_url)) {
-  $title = 'Contactez nous';
-}
-?>
-
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
